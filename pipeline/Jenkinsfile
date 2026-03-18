@@ -2,13 +2,13 @@
 
 node {
 
-    #stage('Clone') {
+    /*stage('Clone') {
     #    gitClone(
      #       'https://github.com/your-username/your-repo.git',
      #       'main',
      #       'git-credentials-id'
      #   )
-    #}
+    #} */
 
     stage('Build') {
         appClone()
